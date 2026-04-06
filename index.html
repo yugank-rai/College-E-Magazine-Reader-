@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Pulse | E-Magazine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>`
+    <nav class="sidebar">
+        <div class="logo">CP</div>
+        <ul class="nav-links">
+            <li class="nav-item active" data-page="0">Cover</li>
+            <li class="nav-item" data-page="1">Spotlights</li>
+            <li class="nav-item" data-page="2">Articles</li>
+            <li class="nav-item" data-page="3">Events</li>
+        </ul>
+    </nav>
+
+    <main class="magazine-container" id="magazine">
+        <section class="page cover" data-page="0">
+            <div class="cover-content">
+                <h1>CAMPUS PULSE</h1>
+                <p class="subtitle">Spring Edition 2026</p>
+                <p class="tagline">A smooth-scrolling campus newsletter experience</p>
+                <div class="scroll-indicator">Scroll to Explore</div>
+            </div>
+        </section>
+
+        <section class="page spotlight-section" data-page="1">
+            <div class="section-header">
+                <h2>Student Spotlights</h2>
+                <p class="section-subtitle">Meet the leaders shaping campus life</p>
+            </div>
+
+            <div class="spotlight-grid">
+                <div class="card spotlight-card" data-article="student1">
+                    <div class="card-image">
+                        <img src=>
+                    </div>
+                    <div class="card-content">
+                        <h3>kaustubh</h3>
+                        <p class="card-role">coding enthusiast</p>
+                        <p>Leading the campus coding club and developing innovative applications.</p>
+                    </div>
+                </div>
+                <div class="card spotlight-card" data-article="student2">
+                    <div class="card-image">
+                        <img src="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Yugank</h3>
+                        <p class="card-role">Developer </p>
+                        <p>Passionate about building scalable solutions and contributing to open-source projects.</p>
+                    </div>
+                </div>
+                <div class="card spotlight-card" data-article="student3">
+                    <div class="card-image">
+                        <img src=>
+                    </div>
+                    <div class="card-content">
+                        <h3>Ayush </h3>
+                        <p class="card-role">Sports Leader and DSA enthusiast</p>
+                        <p>From the court to the classroom, Ayush inspires the whole campus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page articles-section" data-page="2">
+            <div class="section-header">
+                <h2>Article Highlights</h2>
+                <p class="section-subtitle">Featured stories from the latest issue</p>
+            </div>
+
+            <div class="articles-container">
+                <article class="article-card" data-article="article1">
+                    <div class="article-image">
+                        <img src=>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Technology</span>
+                        <h3>Campus Tech Evolution</h3>
+                        <p>How AI and smart systems are reshaping our university experience.</p>
+                    </div>
+                </article>
+                <article class="article-card small" data-article="article2">
+                    <div class="article-image">
+                        <img src=>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Wellness</span>
+                        <h3>Mental Health Matters</h3>
+                        <p>Resources and support systems for every student on campus.</p>
+                    </div>
+                </article>
+                <article class="article-card small" data-article="article3">
+                    <div class="article-image">
+                        <img src=>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Campus Life</span>
+                        <h3>New Student Center</h3>
+                        <p>Explore the fresh spaces built for collaboration and creativity.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="page events-section" data-page="3">
+            <div class="section-header">
+                <h2>Event Photo Carousel</h2>
+                <p class="section-subtitle">A visual tour of campus moments</p>
+            </div>
+
+            <div class="carousel">
+                <button class="carousel-control prev" aria-label="Previous slide">&lsaquo;</button>
+                <div class="carousel-window">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src=>
+                            <div class="slide-caption">Tech Fest 2024</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src>
+                            <div class="slide-caption">Annual Sports Meet</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src=>
+                            <div class="slide-caption">Cultural Night</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control next" aria-label="Next slide">&rsaquo;</button>
+            </div>
+        </section>
+    </main>
+
+    <div id="articleModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" role="button" aria-label="Close modal">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
