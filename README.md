@@ -80,9 +80,13 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👥 Credits
 Ayush
+--
 kaustubh
+--
 Yugank
-Kirti 
+--
+Kirti
+--
 Anushka 
 
 ---
